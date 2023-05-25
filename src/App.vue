@@ -1,8 +1,8 @@
 <template>
   <div class="flex h-screen">
-    <div class="w-1/5 mt-3 ml-20">
+    <div class="w-1/5 mt-4 ml-20">
       <!-- twitter logo -->
-      <i class="fa-solid fa-water-ladder text-3xl text-primary ml-3"></i>
+      <i class="fa-solid fa-water-ladder text-4xl text-primary ml-3"></i>
       <!-- sidemenu icons -->
       <div class="flex flex-col items-start">
         <div class="hover:text-primary hover:bg-blue-50 px-4 py-1 rounded-full mt-5">
@@ -40,7 +40,7 @@
       </div>
       <button class="mt-5 bg-primary text-white w-60 h-14 rounded-full font-bold hover:bg-dark">Tweet</button>
     </div>
-    <div class="flex-1 bg-red-200"></div>
+    <div class="flex-1">home</div>
 </div>
 </template>
 
