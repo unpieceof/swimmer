@@ -2,7 +2,7 @@
 
 Vuejs + Firebase 학습을 위한 Twitter clone
 
-![image](https://github.com/unpieceof/swimmer/assets/101758997/cc6d2920-81eb-4d96-a9ab-01cc01a2c4bf)
+![image](https://github.com/unpieceof/swimmer/assets/101758997/420b11ba-c660-4643-b09f-5da3202b9b39)
 
 
 ## Project setting
