@@ -18,5 +18,17 @@
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
     "vite": "^4.3.2"
-  }
+  },
+  "description": "Vuejs + Firebase 학습을 위한 Twitter clone",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unpieceof/swimmer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unpieceof/swimmer/issues"
+  },
+  "homepage": "https://github.com/unpieceof/swimmer#readme"
 }
