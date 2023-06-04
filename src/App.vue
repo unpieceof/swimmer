@@ -79,7 +79,7 @@
             <div>
               <div class="flex p-3 border-b border-gray-100">
                 <img src="https://picsum.photos/100" class="w-10 h-10 rounded-full hover:opacity-80 cursor-pointer">
-                <div class="flex flex-1 flex-col ml-3">
+                <div class="flex flex-1 flex-col ml-3 space-y-1">
                   <div class="font-light space-x-1">
                     <span class="font-bold">𝐀</span>
                     <span class="text-gray-500">@anoffif</span>
@@ -89,15 +89,193 @@
                   <!-- tweet body -->
                   <div>벌써 월요일이야.. ..</div>
                   <!-- tweet actions -->
-                  <div class="flex">
-                    <i class="far fa-comment"></i>
-                    <i class="far fa-comment"></i>
-                    <i class="far fa-comment"></i>
-                    <i class="far fa-comment"></i>
+                  <div class="flex justify-between">
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-comment hover:bg-blue-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">2</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-green-500">
+                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">5</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-pink-500">
+                      <i class="far fa-heart hover:bg-pink-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">32</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-share-square hover:bg-blue-50 rounded-full p-2"></i>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- dummy tweets-->
+            <div>
+              <div class="flex p-3 border-b border-gray-100">
+                <img src="https://picsum.photos/100" class="w-10 h-10 rounded-full hover:opacity-80 cursor-pointer">
+                <div class="flex flex-1 flex-col ml-3 space-y-1">
+                  <div class="font-light space-x-1">
+                    <span class="font-bold">𝐀</span>
+                    <span class="text-gray-500">@anoffif</span>
+                    <span class="text-gray-500">·</span>
+                    <span class="text-gray-500">18m</span>
+                  </div>
+                  <!-- tweet body -->
+                  <div>이것은 테스트 트윗입니다!</div>
+                  <!-- tweet actions -->
+                  <div class="flex justify-between">
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-comment hover:bg-blue-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm"></span>
+                    </div>
+                    <div class="text-gray-500 hover:text-green-500">
+                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm"></span>
+                    </div>
+                    <div class="text-gray-500 hover:text-pink-500">
+                      <i class="far fa-heart hover:bg-pink-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">3</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-share-square hover:bg-blue-50 rounded-full p-2"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="flex p-3 border-b border-gray-100">
+                <img src="https://picsum.photos/100" class="w-10 h-10 rounded-full hover:opacity-80 cursor-pointer">
+                <div class="flex flex-1 flex-col ml-3 space-y-1">
+                  <div class="font-light space-x-1">
+                    <span class="font-bold">𝐀</span>
+                    <span class="text-gray-500">@anoffif</span>
+                    <span class="text-gray-500">·</span>
+                    <span class="text-gray-500">20m</span>
+                  </div>
+                  <!-- tweet body -->
+                  <div>지금은 껍데기 만드는 중 😝</div>
+                  <!-- tweet actions -->
+                  <div class="flex justify-between">
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-comment hover:bg-blue-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">5</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-green-500">
+                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm"></span>
+                    </div>
+                    <div class="text-gray-500 hover:text-pink-500">
+                      <i class="far fa-heart hover:bg-pink-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">53</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-share-square hover:bg-blue-50 rounded-full p-2"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="flex p-3 border-b border-gray-100">
+                <img src="https://picsum.photos/100" class="w-10 h-10 rounded-full hover:opacity-80 cursor-pointer">
+                <div class="flex flex-1 flex-col ml-3 space-y-1">
+                  <div class="font-light space-x-1">
+                    <span class="font-bold">𝐀</span>
+                    <span class="text-gray-500">@anoffif</span>
+                    <span class="text-gray-500">·</span>
+                    <span class="text-gray-500">21m</span>
+                  </div>
+                  <!-- tweet body -->
+                  <div>긴 트윗을 쓰면 어떻게 보일까? 140자 꽉 채웠을 때.. 하지만 글자수 카운터 쓰기는 귀찮으니까 대충 두 세 줄 써봐야겠다. 지금은 스타벅스에서 엄마와 각자 할 일을 하고 있어요. 일요일이 끝나가다니.. ..</div>
+                  <!-- tweet actions -->
+                  <div class="flex justify-between">
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-comment hover:bg-blue-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">1</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-green-500">
+                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">155</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-pink-500">
+                      <i class="far fa-heart hover:bg-pink-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">2</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-share-square hover:bg-blue-50 rounded-full p-2"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="flex p-3 border-b border-gray-100">
+                <img src="https://picsum.photos/100" class="w-10 h-10 rounded-full hover:opacity-80 cursor-pointer">
+                <div class="flex flex-1 flex-col ml-3 space-y-1">
+                  <div class="font-light space-x-1">
+                    <span class="font-bold">𝐀</span>
+                    <span class="text-gray-500">@anoffif</span>
+                    <span class="text-gray-500">·</span>
+                    <span class="text-gray-500">50m</span>
+                  </div>
+                  <!-- tweet body -->
+                  <div>벌써 월요일이야.. ..</div>
+                  <!-- tweet actions -->
+                  <div class="flex justify-between">
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-comment hover:bg-blue-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">2</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-green-500">
+                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">5</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-pink-500">
+                      <i class="far fa-heart hover:bg-pink-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">32</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-share-square hover:bg-blue-50 rounded-full p-2"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="flex p-3 border-b border-gray-100">
+                <img src="https://picsum.photos/100" class="w-10 h-10 rounded-full hover:opacity-80 cursor-pointer">
+                <div class="flex flex-1 flex-col ml-3 space-y-1">
+                  <div class="font-light space-x-1">
+                    <span class="font-bold">𝐀</span>
+                    <span class="text-gray-500">@anoffif</span>
+                    <span class="text-gray-500">·</span>
+                    <span class="text-gray-500">17m</span>
+                  </div>
+                  <!-- tweet body -->
+                  <div>벌써 월요일이야.. ..</div>
+                  <!-- tweet actions -->
+                  <div class="flex justify-between">
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-comment hover:bg-blue-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">2</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-green-500">
+                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">5</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-pink-500">
+                      <i class="far fa-heart hover:bg-pink-50 rounded-full p-2"></i>
+                      <span class="ml-2 text-sm">32</span>
+                    </div>
+                    <div class="text-gray-500 hover:text-primary">
+                      <i class="far fa-share-square hover:bg-blue-50 rounded-full p-2"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of dummy-->
           </div>
         </div>
         <!-- trend section -->
