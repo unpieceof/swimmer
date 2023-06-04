@@ -58,7 +58,7 @@
     <div class="flex-1">
       <div class="flex h-screen">
         <!-- main section -->
-        <div class="flex-1 border-r border-gray-100">
+        <div class="flex-1 border-r border-gray-100  overflow-y-auto">
           <div class="flex flex-col">
             <!-- page title -->
             <div class="border-b border-gray-100 px-4 py-3 text-xl font-bold">
