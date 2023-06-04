@@ -1,7 +1,7 @@
 <template>
   <div class="flex h-screen">
     <!-- side section -->
-    <div class="w-1/5 mt-4 ml-10 flex flex-col justify-between">
+    <div class="w-1/5 mt-4 ml-10 flex flex-col justify-between border-r border-gray-200">
       <div>
         <!-- twitter logo -->
         <i class="fa-solid fa-water-ladder text-4xl text-primary ml-3"></i>
@@ -24,14 +24,6 @@
             <span class="ml-4 text-xl">Messages</span>
           </div>
           <div class="hover:text-primary hover:bg-blue-50 px-4 py-1 rounded-full mt-5">
-            <i class="fa-solid fa-list fa-fw text-2xl"></i>
-            <span class="ml-4 text-xl">Lists</span>
-          </div>
-          <div class="hover:text-primary hover:bg-blue-50 px-4 py-1 rounded-full mt-5">
-            <i class="fa-regular fa-bookmark fa-fw text-2xl"></i>
-            <span class="ml-4 text-xl">Bookmarks</span>
-          </div>
-          <div class="hover:text-primary hover:bg-blue-50 px-4 py-1 rounded-full mt-5">
             <i class="fa-regular fa-user fa-fw text-2xl"></i>
             <span class="ml-4 text-xl">Profile</span>
           </div>
@@ -41,7 +33,7 @@
           </div>
         </div>
         <!-- tweet button -->
-        <div class="mr-10">
+        <div class="mr-12">
           <button class="mt-5 bg-primary text-white w-full h-14 rounded-full font-bold hover:bg-dark">Tweet</button>
         </div>
       </div>
@@ -53,11 +45,11 @@
               <div class="text-sm font-bold text-left">A</div>
               <div class="text-xs text-gray-500 font-medium">@anoffif</div>
             </div>
-            <i class="fa-solid fa-ellipsis-h fa-fw text-lg ml-auto "></i>
+            <i class="fa-solid fa-ellipsis-h fa-fw text-lg ml-auto hover:text-primary "></i>
           </button>
         </div>
     </div>
-    <div class="flex-1 bg-gray-50">home</div>
+    <div class="flex-1">home</div>
   </div>
 </template>
 
