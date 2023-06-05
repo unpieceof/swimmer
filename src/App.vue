@@ -1,12 +1,12 @@
 <template>
-  <div class="flex h-screen">
+  <div class="flex h-screen container mx-auto">
     <!-- side section -->
-    <div class="w-1/5 lg:ml-20 flex flex-col justify-between border-r border-gray-200">
+    <div class="w-20 lg:w-1/5 lg:ml-20 flex flex-col justify-between border-r border-gray-200">
       <div class="flex flex-col items-center lg:items-start mt-4">
         <!-- twitter logo -->
         <i class="fa-solid fa-water-ladder text-4xl text-primary lg:ml-3"></i>
         <!-- sidemenu icons -->
-        <div class="flex flex-col items-start space-y-2 mt-4">
+        <div class="flex flex-col items-start space-y-2 mt-4 cursor-pointer">
           <div class="hover:bg-gray-200 px-4 py-2 rounded-full">
             <i class="fa-solid fa-house-chimney fa-fw text-2xl"></i>
             <span class="ml-4 mr-2 mb-1 text-xl hidden lg:inline-block">Home</span>
