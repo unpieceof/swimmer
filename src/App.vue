@@ -95,7 +95,7 @@
                       <span class="ml-2 text-sm">2</span>
                     </div>
                     <div class="text-gray-500 hover:text-green-500">
-                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <i class="fas fa-retweet hover:bg-green-50 rounded-full p-2"></i>
                       <span class="ml-2 text-sm">5</span>
                     </div>
                     <div class="text-gray-500 hover:text-pink-500">
@@ -129,7 +129,7 @@
                       <span class="ml-2 text-sm"></span>
                     </div>
                     <div class="text-gray-500 hover:text-green-500">
-                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <i class="fas fa-retweet hover:bg-green-50 rounded-full p-2"></i>
                       <span class="ml-2 text-sm"></span>
                     </div>
                     <div class="text-gray-500 hover:text-pink-500">
@@ -162,7 +162,7 @@
                       <span class="ml-2 text-sm">5</span>
                     </div>
                     <div class="text-gray-500 hover:text-green-500">
-                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <i class="fas fa-retweet hover:bg-green-50 rounded-full p-2"></i>
                       <span class="ml-2 text-sm"></span>
                     </div>
                     <div class="text-gray-500 hover:text-pink-500">
@@ -195,7 +195,7 @@
                       <span class="ml-2 text-sm">1</span>
                     </div>
                     <div class="text-gray-500 hover:text-green-500">
-                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <i class="fas fa-retweet hover:bg-green-50 rounded-full p-2"></i>
                       <span class="ml-2 text-sm">155</span>
                     </div>
                     <div class="text-gray-500 hover:text-pink-500">
@@ -228,7 +228,7 @@
                       <span class="ml-2 text-sm">2</span>
                     </div>
                     <div class="text-gray-500 hover:text-green-500">
-                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <i class="fas fa-retweet hover:bg-green-50 rounded-full p-2"></i>
                       <span class="ml-2 text-sm">5</span>
                     </div>
                     <div class="text-gray-500 hover:text-pink-500">
@@ -261,7 +261,7 @@
                       <span class="ml-2 text-sm">2</span>
                     </div>
                     <div class="text-gray-500 hover:text-green-500">
-                      <i class="far fa-retweet hover:bg-green-50 rounded-full p-2"></i>
+                      <i class="fas fa-retweet hover:bg-green-50 rounded-full p-2"></i>
                       <span class="ml-2 text-sm">5</span>
                     </div>
                     <div class="text-gray-500 hover:text-pink-500">
@@ -279,7 +279,23 @@
           </div>
         </div>
         <!-- trend section -->
-        <div class="w-2/5">trend</div>
+        <div class="hidden lg:block lg:w-2/5 px-4 py-2">
+          <!-- twitter search input -->
+          <div class="relative mb-5">
+            <input type="text" 
+            placeholder="Search Twitter"
+            class="pl-10 rounded-full w-full p-2 bg-gray-100 text-sm focus:outline-none focus:ring-1 focus:ring-primary focus:bg-white" />
+            <i class="fas fa-search absolute left-0 mt-2 ml-3 text-sm text-primary"></i>
+          </div>
+          <!-- trend for me -->
+          <div class="w-full rounded-xl bg-gray-50 flex flex-col">
+            <div class="flex items-center justify-between p-3 border-b border-gray-100">
+              <span class="text-lg font-bold">Trends for you</span>
+              <i class="text-center fas fa-cog text-lg text-primary hover:bg-blue-50 p-2 rounded-full"></i>
+            </div>
+            <div class="border-b border-gray-100 hover:bg-gray-200">test</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
