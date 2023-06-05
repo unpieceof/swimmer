@@ -291,9 +291,90 @@
           <div class="w-full rounded-xl bg-gray-50 flex flex-col">
             <div class="flex items-center justify-between p-3 border-b border-gray-100">
               <span class="text-lg font-bold">Trends for you</span>
-              <i class="text-center fas fa-cog text-lg text-primary hover:bg-blue-50 p-2 rounded-full"></i>
+              <i class="text-center fas fa-gear text-lg text-primary hover:bg-blue-50 p-2 rounded-full"></i>
             </div>
-            <div class="border-b border-gray-100 hover:bg-gray-200">test</div>
+            <!-- dummy trends -->
+            <div class="border-b border-gray-100 hover:bg-gray-100 px-4 py-2">
+              <div class="flex">
+                <div class="flex-1 flex flex-col">
+                  <div class="text-gray-500">Trending in South Korea</div>
+                  <div class="font-bold">개교기념일</div>
+                  <div class="text-gray-500">2,016 Tweets</div>
+                </div>
+                <i class="fas fa-ellipsis-h text-gray-500"></i>
+              </div>
+            </div>
+            <div class="border-b border-gray-100 hover:bg-gray-100 px-4 py-2">
+              <div class="flex">
+                <div class="flex-1 flex flex-col">
+                  <div class="text-gray-500">Trending in South Korea</div>
+                  <div class="font-bold">개교기념일</div>
+                  <div class="text-gray-500">2,016 Tweets</div>
+                </div>
+                <i class="fas fa-ellipsis-h text-gray-500"></i>
+              </div>
+            </div>
+            <div class="border-b border-gray-100 hover:bg-gray-100 px-4 py-2">
+              <div class="flex">
+                <div class="flex-1 flex flex-col">
+                  <div class="text-gray-500">Trending in South Korea</div>
+                  <div class="font-bold">개교기념일</div>
+                  <div class="text-gray-500">2,016 Tweets</div>
+                </div>
+                <i class="fas fa-ellipsis-h text-gray-500"></i>
+              </div>
+            </div>
+            <div class="border-b border-gray-100 hover:bg-gray-100 px-4 py-2">
+              <div class="flex">
+                <div class="flex-1 flex flex-col">
+                  <div class="text-gray-500">Trending in South Korea</div>
+                  <div class="font-bold">개교기념일</div>
+                  <div class="text-gray-500">2,016 Tweets</div>
+                </div>
+                <i class="fas fa-ellipsis-h text-gray-500"></i>
+              </div>
+            </div>
+            <div class="px-4 py-2 hover:bg-gray-100 rounded-xl">
+              <span class="text-primary">Show more</span>
+            </div>
+          </div>
+          <!-- follow recommend -->
+          <div class="w-full rounded-xl bg-gray-50 flex flex-col mt-5">
+            <div class="p-3 border-b border-gray-100">
+              <span class="text-lg font-bold">Who to follow</span>
+            </div>
+            <!-- dummy user -->
+            <div class="border-b border-gray-100 hover:bg-gray-100 px-4 py-2">
+              <div class="flex">
+                <div>
+                  <img src="https://picsum.photos/200" class="w-10 h-10 rounded-full mr-2">
+                </div>
+                <div class="flex-1 flex flex-col">
+                  <div class="font-bold">앙뇽</div>
+                  <div class="text-gray-500">@hi_friend</div>
+                </div>
+                <div>
+                  <button class="bg-black text-white hover:bg-dark px-4 py-2 rounded-full">Follow</button>
+                </div>
+              </div>
+            </div>
+            <div class="border-b border-gray-100 hover:bg-gray-100 px-4 py-2">
+              <div class="flex">
+                <div>
+                  <img src="https://picsum.photos/200" class="w-10 h-10 rounded-full mr-2">
+                </div>
+                <div class="flex-1 flex flex-col">
+                  <div class="font-bold">가짜친구</div>
+                  <div class="text-gray-500">@fakeme</div>
+                </div>
+                <div>
+                  <button class="bg-black text-white hover:bg-dark px-4 py-2 rounded-full">Follow</button>
+                </div>
+              </div>
+            </div>
+            <div class="px-4 py-2 hover:bg-gray-100 rounded-xl">
+              <span class="text-primary">Show more</span>
+            </div>
           </div>
         </div>
       </div>
