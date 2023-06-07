@@ -11,7 +11,7 @@
           <div class="w-full rounded-xl bg-gray-50 flex flex-col">
             <div class="flex items-center justify-between p-3 border-b border-gray-100">
               <span class="text-lg font-bold">Trends for you</span>
-              <i class="text-center fas fa-gear text-lg text-primary hover:bg-blue-50 px-2 py-1 rounded-full"></i>
+              <i class="text-center fas fa-gear text-lg text-primary hover:bg-blue-50 px-2 py-1 rounded-full cursor-pointer"></i>
             </div>
             <!-- dummy trends -->
             <div class="border-b border-gray-100 hover:bg-gray-100 px-4 py-2 cursor-pointer">
@@ -37,9 +37,7 @@
             <!-- dummy user -->
             <div class="border-b border-gray-100 hover:bg-gray-100 px-4 py-2">
               <div class="flex items-center">
-                <div>
-                  <img src="https://picsum.photos/200" class="w-10 h-10 rounded-full mr-2">
-                </div>
+                <img src="https://picsum.photos/200" class="w-10 h-10 rounded-full mr-2">
                 <div class="flex-1 flex flex-col">
                   <div class="font-bold cursor-pointer hover:underline">앙뇽</div>
                   <div class="text-gray-500 text-sm">@hi_friend</div>

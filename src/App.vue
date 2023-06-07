@@ -57,15 +57,17 @@
     </div>
     <!-- main section -->
     <div class="flex-1 flex h-screen">
-      <Home />
+      <Notifications />
+      <Trends />
     </div>
   </div>
 </template>
 
 <script>
-import Home from './pages/Home.vue'
+import Trends from './components/Trends.vue'
+import Notifications from './pages/Notifications.vue'
 export default {
-  components: { Home },
+  components: { Notifications, Trends },
   setup() {},
 }
 </script>
