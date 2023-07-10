@@ -1,4 +1,5 @@
 <template>
+  <!-- Notifications -->
     <div class="flex-1 flex flex-col border-r border-gray-100 overflow-y-auto">
         <!-- page title -->
         <div class="px-4 py-3 text-xl font-bold border-b border-gray-100">
@@ -46,9 +47,14 @@
                 <i class="fas fa-ellipsis-h text-gray-500 hover:bg-blue-50 hover:text-primary rounded-full p-2 w-10 h-10 flex items-center justify-center"></i>
               </div>
     </div>
+  <!-- Trends-->
+    <Trends />
 </template>
 
 <script>
+import Trends from '../components/Trends.vue'
 export default {
+  components: { Trends },
+  setup() {},
 }
 </script>
